@@ -1,4 +1,8 @@
 #include <Arduino.h>
+#include <HardwareSerial.h>
+#include <RH_RF69.h>
+
+static RH_RF69 rf69;
 
 void setup()
 {
@@ -7,6 +11,6 @@ void setup()
 
 void loop()
 {
-	Serial.println("Hello World!");
+	Serial.println("Loop");
 }
 
